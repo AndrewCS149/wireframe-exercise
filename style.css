@@ -1,0 +1,72 @@
+header {
+  background-color: grey;
+  height: 90px;
+}
+
+header div {
+  margin: auto;
+  text-align: left;
+  width: 960px;
+}
+
+header nav {
+  display: inline-block;
+  vertical-align: 35px;
+}
+
+header img,
+a {
+  color: lightgrey;
+  padding: 8px 80px 8px 0px;
+  text-decoration: none;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+section div {
+  line-height: 1.35em;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  display: block;
+  font-style: italic;
+  height: 325px;
+  overflow: auto;
+  opacity: 80%;
+  width: 450px;
+}
+
+button {
+  background-color: lightgray;
+  border: 1px solid grey;
+  border-radius: 7.5px;
+  height: 45px;
+  margin-top: 15px;
+  padding: 10px 0px 10px;
+  width: 300px;
+}
+
+button:hover {
+  background-color: darkgray;
+  transition: 350ms;
+}
+
+footer {
+  background-color: grey;
+  height: 100px;
+}
